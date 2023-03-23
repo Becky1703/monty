@@ -41,6 +41,7 @@ execute(content, &stack, counter, file);
 }
 free(content);
 }
-free_stack(stack);fclose(file);
+free_stack(stack);
+fclose(file);
 return (0);
 }
