@@ -1,6 +1,5 @@
 #define _GNU_SOURCE
 #include "monty.h"
-bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
  * main - monty code interpreter
@@ -16,6 +15,7 @@ size_t size = 0;
 ssize_t read_line = 1;
 stack_t *stack = NULL;
 unsigned int counter = 0;
+bus_t bus = {NULL, NULL, NULL, 0};
 
 if (argc != 2)
 {
